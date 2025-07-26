@@ -1,56 +1,54 @@
-# 💬 ChatApp - Java Swing Based Chat Application
+# 💬 ChatApp
 
-A simple Java chat application built using **Java Sockets** and **Java Swing GUI**. This project demonstrates client-server communication using TCP sockets and provides a basic GUI for sending and receiving messages in real-time.
+A simple Java-based chat application built using **Swing** and **Socket Programming** that enables real-time messaging between a client and a server on the same local network.
+---
+## ✨ Features
 
+- 🖼️ Graphical User Interface (GUI) using Java Swing  
+- 🌐 Socket Programming using TCP  
+- 💬 Real-time message sending and receiving  
+- 🕒 Timestamp on each message  
+- ⚡ Lightweight and easy to run — no external libraries needed  
 ---
 
-## 🚀 Features
+## 🗂️ Project Structure
 
-- 🖥️ Graphical User Interface (GUI) using Java Swing  
-- 🔗 Socket Programming using TCP  
-- 📤 Real-time message sending  
-- 📥 Message receiving with timestamp  
-- ✅ Easy to run – no external libraries
-
----
-
-## 📁 Project Structure
 ChatApp/
-│
 ├── Client.java // Client-side chat application
-
 ├── Server.java // Server-side message handler
+├── icons/ // Folder containing images and icons
+└── README.md // Project documentation (this file)
+---
 
-├── icons/ // Folder containing app icons and images
+## ⚙️ How to Run
 
-└── README.md // Project documentation
+### ✅ Prerequisites
+
+- Java installed (JDK 8 or above)
+- Any IDE (like VS Code, IntelliJ) or command-line terminal
 
 ---
 
-## 🛠️ How to Run
+### 🪜 Steps
 
-### ⚙️ Prerequisites
-- Java installed (JDK 8 or above)
-- Any IDE or terminal/command prompt
+#### 🔧 Step 1: Compile the Code
 
-### 🧪 Steps
-
-### 🧑‍💻 Step 1: Compile the Code
-
-Open terminal or command prompt in your `ChatApp` folder and run:
+Open your terminal or command prompt in the `ChatApp` folder and run:
 
 ```bash
 javac Server.java
 javac Client.java
+🟢 Step 2: Start the Server
+bash
 
-Step2. **Start the Server**
-   - Run `Server.java` file first.
+java Server
+Always start the server before the client.
+🧑‍💻 Step 3: Start the Client (in a new terminal)
+bash
 
-Step3. **Start the Client**
-   - Run `Client.java` after the server is up.
----
+java Client
 
 
-💬 Start Chatting!
+
+🗨️ Start Chatting!
 Send and receive messages instantly within the same local network.
-
