@@ -40,56 +40,7 @@ Open your terminal or command prompt in the `ChatApp` folder and run:
 ```bash
 javac Server.java
 javac Client.java
-Thanks for sharing the update! You are very close, but the screenshot shows a few small but important syntax mistakes in the Markdown code. This is why it's not looking right.
-
-Let's fix it. I'll explain what's wrong and then give you the correct code to paste.
-
-What Needs to Be Fixed:
-Looking at your screenshot, here are the main issues:
-
-Headings (#) are Missing: The lines for Step 2 and Step 3 are missing the ##### symbols in front. Without them, they are just plain text instead of becoming headings.
-
-Code Blocks (```) are Incorrect: You have written the word Bash as normal text. The word bash should come immediately after the three backticks (```) to tell Markdown it's a code block. You are also missing the closing three backticks (```) to end the code block.
-
-For example, this is what you have written:
-
-Step 2: Start the Server
-...
-Bash
-java Server
-This is how it should be written in Markdown to work correctly:
-
-Markdown
-
-##### 🟢 Step 2: Start the Server
-```bash
-java Server
-
----
-
-### ✅ The Final Correct Code
-
-Don't worry about fixing it line by line. The easiest way is to **delete everything from `### ⚙️ How to Run` downwards** in your file and **replace it with the correct code below.**
-
-Just copy and paste this entire block:
-
-```markdown
-### ⚙️ How to Run
-
-#### ✅ Prerequisites
-- Java installed (JDK 8 or above)
-- Any IDE (like VS Code, IntelliJ) or a command-line terminal
-
----
-
-#### 🪜 Steps
-
-##### 🔧 Step 1: Compile the Code
-Open your terminal or command prompt in the `ChatApp` folder and run:
-```bash
-javac Server.java
-javac Client.java
-🟢 Step 2: Start the Server
+ Step 2: Start the Server
 In the same terminal, run this command. Always start the server before the client.
 
 Bash
