@@ -18,8 +18,11 @@ A simple Java chat application built using **Java Sockets** and **Java Swing GUI
 ChatApp/
 │
 ├── Client.java // Client-side chat application
+
 ├── Server.java // Server-side message handler
+
 ├── icons/ // Folder containing app icons and images
+
 └── README.md // Project documentation
 
 ---
@@ -46,6 +49,8 @@ Step2. **Start the Server**
 Step3. **Start the Client**
    - Run `Client.java` after the server is up.
 ---
+
+
 💬 Start Chatting!
 Send and receive messages instantly within the same local network.
 
